@@ -1,0 +1,55 @@
+/* General styling for the navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2F5663; 
+    padding: 0px 20px;
+    color: white;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  
+  .navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .goto {
+    color: white;
+    margin: 15px;
+  }
+  
+  .highlight {
+    color: #d4a04c; 
+  }
+  
+
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navbar-links li a:hover {
+    color: #d4a04c; 
+  }
+  
+  
+  .nav_icon{
+   height: 1.5em;
+   width: 1.5em;
+    margin: none;
+  }
+
+ 
+
+  
+  

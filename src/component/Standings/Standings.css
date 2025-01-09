@@ -1,0 +1,35 @@
+.standings {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .standings h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .standings table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .standings th, .standings td {
+    text-align: center;
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .standings th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .standings td {
+    font-size: 14px;
+  }
+  
+  .standings tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  

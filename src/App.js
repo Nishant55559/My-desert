@@ -1,14 +1,14 @@
 
-import './App.css';
+import React from 'react';
+import NavRail from './component/NavRail/NavRail';
 import Navbar from './component/navbar/nav';
-import Head from './component/head/head';
+import './App.css';
 
 function App() {
   return (
     <div>
+      <NavRail/>
       <Navbar/>
-      <Head/>
-
     </div>
   );
 }

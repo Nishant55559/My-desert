@@ -1,24 +1,45 @@
 
-import './nav.css';
-import { IoApps } from "react-icons/io5";
+import { FaSearch, FaBell, FaShoppingCart, FaBars } from "react-icons/fa";
+import "./nav.css";
 
 function Navbar(){
-    return (
-        <nav className="navbar">
-          <div className="navbar-logo">
-            <span className="goto">GO<span className="highlight">TO</span>EGYPT</span>
-          </div>
-          <ul className="navbar-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#explore">Explore</a></li>
-            <li><a href="#articles">Articles</a></li>
-            <li><a href="#galleries">Galleries</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-          <IoApps className='nav_icon'  style={{ color: "#d4a04c" }} />
-          
-        </nav>
-      )
+  return (
+    <div className="navbar">
+      {/* Left Section */}
+      <div className="navbar-left">
+        <FaBars className="navbar-menu-icon" />
+        <img src="https://via.placeholder.com/20x20?text=N" alt="Logo" className="navbar-logo" />
+      </div>
+
+      {/* Center Section */}
+      <div className="navbar-center">
+        <div className="navbar-search">
+          <input type="text" placeholder="Search..." className="navbar-search-input" />
+          <FaSearch className="navbar-search-icon" />
+        </div>
+        <div className="navbar-inter">
+          <button className="navbar-inter-btn">
+            <img src="https://via.placeholder.com/20x20" alt="Inter Icon" className="inter-icon" />
+            INTER
+          </button>
+        </div>
+      </div>
+
+      {/* Right Section */}
+      <div className="navbar-right">
+        <FaBell className="navbar-icon" />
+        <FaShoppingCart className="navbar-icon" />
+        <div className="navbar-profile">
+          <img
+            src="https://via.placeholder.com/20x20"
+            alt="Profile"
+            className="navbar-profile-pic"
+          />
+          <span className="navbar-profile-name">SAID</span>
+        </div>
+      </div>
+    </div>
+  )
 };
 
 export default Navbar;

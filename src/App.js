@@ -1,14 +1,14 @@
 
 import React from 'react';
-import NavRail from './component/NavRail/NavRail';
-import Navbar from './component/navbar/nav';
+import Dashboard from './component/Dashboard/Dashboard';
 import './App.css';
 
 function App() {
   return (
     <div>
-      <NavRail/>
-      <Navbar/>
+      <Dashboard/>
+      
+    
     </div>
   );
 }

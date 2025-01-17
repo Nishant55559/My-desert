@@ -1,12 +1,12 @@
 
 import React from 'react';
-import Dashboard from './component/Dashboard/Dashboard';
+import Home from './component/home/home';
 import './App.css';
 
 function App() {
   return (
     <div>
-      <Dashboard/>
+      <Home/>
       
     
     </div>

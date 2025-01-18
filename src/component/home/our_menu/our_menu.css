@@ -1,0 +1,85 @@
+/* Import Livvic font */
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@400;700&display=swap');
+
+/* Container styling */
+.menu-container {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 3rem 2rem;
+    text-align: center;
+    font-family: 'Livvic', sans-serif;
+}
+
+.menu-heading {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.menu-sections {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 1rem; 
+    text-align: center; 
+}
+
+.menu-section {
+    flex: 1;
+    min-width: 45%; 
+    max-width: 45%; 
+    box-sizing: border-box; 
+    padding: 1rem; 
+}
+
+
+
+
+.section-title {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    color: #040404;
+    font-weight: bold;
+}
+
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.item-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #d4af37;
+    margin: 0;
+}
+
+.item-description {
+    font-size: 0.9rem;
+    color: #000000;
+    margin-top: 0.3rem;
+}
+
+.item-price {
+    font-size: 1.2rem;
+    color: #d4af37; /* Gold */
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .menu-sections {
+        flex-direction: column; 
+    }
+
+    .menu-section {
+        max-width: 100%;
+    }
+}

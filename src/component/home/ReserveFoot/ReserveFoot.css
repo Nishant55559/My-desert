@@ -1,0 +1,76 @@
+.reserve-foot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh; /* Adjust for responsiveness */
+    background: url('resfoot.jpg') no-repeat center center/cover; 
+    padding: 2rem;
+    color: white;
+  }
+  
+  .reserve-content {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 2rem 3rem;
+    border-radius: 10px;
+  }
+  
+  .reserve-subheading {
+    font-size: 1.2rem;
+    letter-spacing: 0.1em;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #d4af37; /* Gold color */
+  }
+  
+  .reserve-heading {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+  }
+  
+  .reserve-description {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+  }
+  
+  .reserve-button {
+    font-size: 1rem;
+    padding: 0.8rem 2rem;
+    background-color: transparent;
+    border-radius: 10px; 
+    color: #ffffff;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    transition: all 0.3s ease;
+    background-color: #fb970100;
+    border-left-color:#fb970100 ;
+    border-right-color:#fb970100 ;
+    border-top-color:#fb9701 ;
+    border-bottom-color:#fb9701 ;
+  }
+  
+  .reserve-button:hover {
+    background-color: #d4af37; /* Slightly darker gold for hover */
+    transform: scale(1.05);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .reserve-heading {
+      font-size: 2.5rem;
+    }
+  
+    .reserve-content {
+      padding: 1.5rem;
+    }
+  
+    .reserve-button {
+      font-size: 0.9rem;
+      padding: 0.7rem 1.5rem;
+    }
+  }
+  

@@ -33,9 +33,10 @@
   }
   
   .read-more {
-    background-color: #e46f15bd;
-    color: #ffffff;
-    border: none;
+    background-color: #e46f1500;
+    color: #ff4b2b;
+    border: 3px solid;
+    border-color: #ff4b2b;
     padding: 10px 20px;
     cursor: pointer;
     font-size: 0.9rem;

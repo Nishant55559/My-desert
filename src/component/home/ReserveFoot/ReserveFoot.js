@@ -11,8 +11,8 @@ function ReserveFoot() {
         <p className="reserve-subheading">We saved you a seat</p>
         <h1 className="reserve-heading">Make an online <br /> Reservation</h1>
         <p className="reserve-description">
-          When the going gets tough, the tough get grilling. Bringing heat to your meat.
-          No one can compete with our meat.
+        When the flavors get bold, 
+        we bring the fire to your feast. Serving up sizzling dishes no one can beat.
         </p>
         <button className="reserve-button" >
           Reservation

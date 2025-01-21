@@ -1,0 +1,113 @@
+.menu-body {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .menu-tabs {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .tab-button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    background-color: #f4f4f4;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .tab-button.active {
+    background-color: #ff6347;
+    color: #fff;
+  }
+  
+  .menu-items {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 1.5px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
+  .menu-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .menu-image:hover {
+    transform: scale(1.1);
+  }
+  
+  .menu-details {
+    text-align: left;
+    flex: 1;
+  }
+  
+  .price {
+    font-weight: bold;
+    color: #ff6347;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+  }
+  
+  .next-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff6347;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .next-button:hover {
+    background-color: #e5533d;
+  }
+  
+  /* Fade-in animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .menu-item {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .menu-image {
+      margin-bottom: 10px;
+    }
+  
+    .pagination {
+      text-align: center;
+    }
+  }
+  

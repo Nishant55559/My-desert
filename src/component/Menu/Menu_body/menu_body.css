@@ -19,6 +19,8 @@
     background-color: #f4f4f4;
     cursor: pointer;
     transition: all 0.3s ease;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
   
   .tab-button.active {

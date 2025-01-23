@@ -22,7 +22,7 @@ const menuData = {
     { name: "Hara Bhara Kebab", description: "Healthy and delicious patties made with spinach, peas, and spices.", price: "₹180", image: "hara-bhara-kebab.jpg" },
     { name: "Fish Amritsari", description: "Spicy and crispy fried fish coated in a tangy batter.", price: "₹350", image: "fish-amritsari.jpg" },
   ],
-  Dinner: [
+  Main_Course: [
     { name: "Butter Chicken", description: "Creamy tomato-based curry with tender chicken pieces, served with naan or rice.", price: "₹350", image: "butter-chicken.jpg" },
     { name: "Paneer Tikka Masala", description: "Grilled paneer cubes cooked in rich, spiced gravy, served with roti or rice.", price: "₹300", image: "paneer-tikka.jpg" },
     { name: "Hyderabadi Biryani", description: "Flavorful rice cooked with aromatic spices and tender chicken or vegetables.", price: "₹250", image: "biryani.jpg" },

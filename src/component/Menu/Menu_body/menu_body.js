@@ -98,9 +98,9 @@ const MenuBody = () => {
           <div className="menu-item" key={index}>
             <img src={dish.image} alt={dish.name} className="menu-image" />
             <div className="menu-details">
-              <h3>{dish.name}</h3>
+              <h3 style={{color:"orange"}}>{dish.name}</h3>
               <p>{dish.description}</p>
-              <p className="price">{dish.price}</p>
+              <p className="price">{dish.price} </p>
             </div>
           </div>
         ))}

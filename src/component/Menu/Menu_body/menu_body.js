@@ -4,6 +4,10 @@ import alooph from './alooph.jpg'
 import dosa from './dosa.jpg'
 import idli from './idli.jpg'
 import poha from './poha.jpg'
+import chole from './chole.jpg'
+import puri from './puri.jpg'
+import methi from './methi.jpg'
+import aloodum from './aloodum.jpg'
 
 const menuData = {
   Breakfast: [
@@ -11,8 +15,10 @@ const menuData = {
     { name: "Masala Dosa", description: "Crispy rice crepe filled with spiced potato filling, served with chutney and sambar.", price: "₹150", image: dosa },
     { name: "Idli & Vada Combo", description: "Steamed rice cakes and crispy lentil fritters, served with sambar and coconut chutney.", price: "₹100", image: idli },
     { name: "Poha", description: "Flattened rice cooked with onions, turmeric, and garnished with peanuts and coriander.", price: "₹80", image: poha },
-    { name: "Upma", description: "Semolina cooked with veggies and tempered with mustard seeds and curry leaves.", price: "₹90", image: "upma.jpg" },
-    { name: "Chole Bhature", description: "Spiced chickpea curry served with deep-fried bread.", price: "₹180", image: "chole-bhature.jpg" },
+    { name: "Upma", description: "Semolina cooked with veggies and tempered with mustard seeds and curry leaves.", price: "₹90", image:puri },
+    { name: "Chole Bhature", description: "Spiced chickpea curry served with deep-fried bread.", price: "₹180", image: chole },
+    { name: "Chole Bhature", description: "Spiced chickpea curry served with deep-fried bread.", price: "₹180", image: aloodum },
+    { name: "Chole Bhature", description: "Spiced chickpea curry served with deep-fried bread.", price: "₹180", image: methi },
   ],
   Starter: [
     { name: "Paneer Tikka", description: "Marinated cottage cheese cubes grilled to perfection with spices.", price: "₹250", image: "paneer-tikka.jpg" },

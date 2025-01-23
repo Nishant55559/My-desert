@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./navbar.css";
-
+import { Link } from 'react-router-dom';
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -17,13 +17,13 @@ const Navbar = () => {
       </div>
       <ul className={`nav-links ${menuOpen ? "active" : ""}`}>
         <li>
-          <a href="#home">Home</a>
+        <Link to="/">Home</Link>
         </li>
         <li>
-          <a href="#about">About Us</a>
+        <Link to="/aboutUs">About Us</Link>
         </li>
         <li>
-          <a href="#menu">Our Menu</a>
+        <Link to="/menu">Our Menu</Link>
         </li>
         <li>
           <a href="#reserve">Reserve a Table</a>

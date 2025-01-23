@@ -1,12 +1,16 @@
 import React, { useState } from "react";
 import "./menu_body.css";
+import alooph from './alooph.jpg'
+import dosa from './dosa.jpg'
+import idli from './idli.jpg'
+import poha from './poha.jpg'
 
 const menuData = {
   Breakfast: [
-    { name: "Aloo Paratha", description: "Indian flatbread stuffed with spiced mashed potatoes, served with butter and yogurt.", price: "₹120", image: "aloo-paratha.jpg" },
-    { name: "Masala Dosa", description: "Crispy rice crepe filled with spiced potato filling, served with chutney and sambar.", price: "₹150", image: "masala-dosa.jpg" },
-    { name: "Idli & Vada Combo", description: "Steamed rice cakes and crispy lentil fritters, served with sambar and coconut chutney.", price: "₹100", image: "idli-vada.jpg" },
-    { name: "Poha", description: "Flattened rice cooked with onions, turmeric, and garnished with peanuts and coriander.", price: "₹80", image: "poha.jpg" },
+    { name: "Aloo Paratha", description: "Indian flatbread stuffed with spiced mashed potatoes, served with butter and yogurt.", price: "₹120", image:alooph },
+    { name: "Masala Dosa", description: "Crispy rice crepe filled with spiced potato filling, served with chutney and sambar.", price: "₹150", image: dosa },
+    { name: "Idli & Vada Combo", description: "Steamed rice cakes and crispy lentil fritters, served with sambar and coconut chutney.", price: "₹100", image: idli },
+    { name: "Poha", description: "Flattened rice cooked with onions, turmeric, and garnished with peanuts and coriander.", price: "₹80", image: poha },
     { name: "Upma", description: "Semolina cooked with veggies and tempered with mustard seeds and curry leaves.", price: "₹90", image: "upma.jpg" },
     { name: "Chole Bhature", description: "Spiced chickpea curry served with deep-fried bread.", price: "₹180", image: "chole-bhature.jpg" },
   ],

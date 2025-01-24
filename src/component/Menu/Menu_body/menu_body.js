@@ -110,7 +110,7 @@ const menuData = {
 const MenuBody = () => {
   const [activeCategory, setActiveCategory] = useState("Breakfast");
   const [currentPage, setCurrentPage] = useState(0);
-  const itemsPerPage = 4;
+  const itemsPerPage = 6;
 
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [selectedDish, setSelectedDish] = useState(null);

@@ -9,8 +9,42 @@ import chole from './chole.jpg';
 import puri from './puri.jpg';
 import methi from './methi.jpg';
 import aloodum from './aloodum.jpg';
+import cpakora from './cpakora.jpg'
+import ctikka from './ctikka.jpg'
+import kebab from './kebab.jpg'
+import onion from './onion.jpg'
+import pavb from './pavb.jpg'
+import samosa from './samosa.jpg'
 import souththali from './souththali.jpg';
+import missel from './missel.jpg'
+import butterc from './butterc.jpg'
+import pkm from './pkm.jpg'
+import panti from './panti.jpg'
+import fish from './fish.jpeg'
+import dal from './dal.jpg'
+import biryani from './biryani.jpg'
+import bhindi from './bhindi.jpeg'
+import mutton from './mutton.jpeg'
+import gobi from './gobi.jpeg'
 import Modal from "react-modal";
+import chai from './chai.jpg'
+import coffee from './coffee.jpg'
+import gulab from './gulab.jpeg'
+import jaljeera from './Jaljeera.jpeg'
+import mango from './mango.jpeg'
+import shake from './shake.jpeg'
+import soda from './soda.jpeg'
+import badam from './Badam.jpeg'
+import veg from './veg.jpg'
+import purip from './panip.jpg'
+import indian56 from './Indian56.jpeg'
+import jamun from './Jamun.jpeg'
+import jeera from './Jeera.jpeg'
+import dahi from './Dahi.jpeg'
+import garlic from './Garlic.jpeg'
+import chaat from './Chaat.jpeg'
+import non from './non.jpg'
+import bengali from './bengal.jpeg'
 
 Modal.setAppElement("#root"); // Set the app root for accessibility
 
@@ -26,51 +60,49 @@ const menuData = {
     { name: "Meethi ke Parathe", description: "Spiced chickpea curry served with deep-fried bread.", price: "₹180", image: methi },
   ],
   Starter: [
-    { name: "Paneer Tikka", description: "Marinated cottage cheese cubes grilled to perfection with spices.", price: "₹250", image: "paneer-tikka.jpg" },
-    { name: "Vegetable Pakora combo", description: "Crispy deep-fried fritters made with mixed vegetables and gram flour.", price: "₹150", image: "vegetable-pakora.jpg" },
-    { name: "Chicken Tikka", description: "Tender chicken pieces marinated in yogurt and spices, cooked in a tandoor.", price: "₹300", image: "chicken-tikka.jpg" },
-    { name: "Samosa combo", description: "Crispy pastry filled with spiced potatoes and peas, served with chutney.", price: "₹120", image: "samosa-platter.jpg" },
-    { name: "Hara Bhara Kebab", description: "Healthy and delicious patties made with spinach, peas, and spices.", price: "₹180", image: "hara-bhara-kebab.jpg" },
-    { name: "Missle Pav", description: "Spicy and crispy fried fish coated in a tangy batter.", price: "₹350", image: "fish-amritsari.jpg" },
-    { name: "Chicken Pakora", description: "Spicy and crispy fried fish coated in a tangy batter.", price: "₹350", image: "fish-amritsari.jpg" },
-
-    { name: "Pav Bhaji", description: "Spicy and crispy fried fish coated in a tangy batter.", price: "₹350", image: "fish-amritsari.jpg" },
+    { name: "Paneer Tikka", description: "Marinated cottage cheese cubes grilled to perfection with spices.", price: "₹250", image:panti },
+    { name: "Onion Bhaji combo", description: "Crispy deep-fried fritters made with mixed vegetables and gram flour.", price: "₹150", image: onion },
+    { name: "Chicken Tikka", description: "Tender chicken pieces marinated in yogurt and spices, cooked in a tandoor.", price: "₹300", image: ctikka },
+    { name: "Samosa combo", description: "Crispy pastry filled with spiced potatoes and peas, served with chutney.", price: "₹120", image: samosa },
+    { name: "Hara Bhara Kebab", description: "Healthy and delicious patties made with spinach, peas, and spices.", price: "₹180", image: kebab },
+    { name: "Missle Pav", description: "Spicy and crispy fried fish coated in a tangy batter.", price: "₹350", image:missel },
+    { name: "Chicken Pakora", description: "Spicy and crispy fried fish coated in a tangy batter.", price: "₹350", image: cpakora },
+    { name: "Pav Bhaji", description: "Spicy and crispy fried fish coated in a tangy batter.", price: "₹350", image: pavb },
   ],
   Main_Course: [
-    { name: "Butter Chicken with nana", description: "Creamy tomato-based curry with tender chicken pieces, served with naan or rice.", price: "₹350", image: "butter-chicken.jpg" },
-    { name: "Paneer Tikka Masala", description: "Grilled paneer cubes cooked in rich, spiced gravy, served with roti or rice.", price: "₹300", image: "paneer-tikka.jpg" },
-    { name: "Hyderabadi Biryani", description: "Flavorful rice cooked with aromatic spices and tender chicken or vegetables.", price: "₹250", image: "biryani.jpg" },
-    { name: "Dal Makhani", description: "Creamy black lentil curry slow-cooked with butter and spices, served with naan.", price: "₹200", image: "dal-makhani.jpg" },
-    { name: "Gobi Masala", description: "Soft and fresh whole wheat Indian bread cooked in a tandoor.", price: "₹30", image: "tandoori-roti.jpg" },
-    { name: "Mutton Rogan Josh", description: "Spicy and tangy curry with tender fish, served with steamed rice.", price: "₹400", image: "fish-curry.jpg" },
-    { name: "Bhindi Masala", description: "Spicy and tangy curry with tender fish, served with steamed rice.", price: "₹400", image: "fish-curry.jpg" },
-
-    { name: "Fish Curry", description: "Spicy and tangy curry with tender fish, served with steamed rice.", price: "₹400", image: "fish-curry.jpg" },
+    { name: "Butter Chicken with nana", description: "Creamy tomato-based curry with tender chicken pieces, served with naan or rice.", price: "₹350", image: butterc },
+    { name: "Paneer Tikka Masala", description: "Grilled paneer cubes cooked in rich, spiced gravy, served with roti or rice.", price: "₹300", image: pkm },
+    { name: "Hyderabadi Biryani", description: "Flavorful rice cooked with aromatic spices and tender chicken or vegetables.", price: "₹250", image: biryani },
+    { name: "Dal Makhani", description: "Creamy black lentil curry slow-cooked with butter and spices, served with naan.", price: "₹200", image: dal },
+    { name: "Gobi Masala", description: "Soft and fresh whole wheat Indian bread cooked in a tandoor.", price: "₹30", image:gobi },
+    { name: "Mutton Rogan Josh", description: "Spicy and tangy curry with tender fish, served with steamed rice.", price: "₹400", image: mutton },
+    { name: "Bhindi Masala", description: "Spicy and tangy curry with tender fish, served with steamed rice.", price: "₹400", image: bhindi },
+    { name: "Fish Curry", description: "Spicy and tangy curry with tender fish, served with steamed rice.", price: "₹400", image: fish },
   ],
   Drinks: [
-    { name: "Masala Chai", description: "Traditional Indian tea brewed with spices and milk.", price: "₹40", image: "masala-chai.jpg" },
-    { name: "Mango Lassi", description: "Refreshing yogurt-based drink blended with mango pulp.", price: "₹120", image: "mango-lassi.jpg" },
-    { name: "Filter Coffee", description: "South Indian-style strong and aromatic coffee.", price: "₹50", image: "filter-coffee.jpg" },
-    { name: "Fresh Lime Soda", description: "Sparkling soda with fresh lime and a hint of salt.", price: "₹80", image: "fresh-lime-soda.jpg" },
-    { name: "Jaljeera", description: "Spiced cumin drink with tangy and refreshing flavors.", price: "₹60", image: "jaljeera.jpg" },
-    { name: "Badam Milk", description: "Chilled almond milk with saffron and cardamom.", price: "₹150", image: "badam-milk.jpg" },
-    { name: "kit kat shake", description: "Fresh and natural coconut water served chilled.", price: "₹50", image: "coconut-water.jpg" },
-    { name: "Rose Sharbat", description: "Sweet rose-flavored drink, served cold.", price: "₹100", image: "rose-sharbat.jpg" },
+    { name: "Masala Chai", description: "Traditional Indian tea brewed with spices and milk.", price: "₹40", image: chai },
+    { name: "Mango Lassi", description: "Refreshing yogurt-based drink blended with mango pulp.", price: "₹120", image: mango },
+    { name: "Filter Coffee", description: "South Indian-style strong and aromatic coffee.", price: "₹50", image: coffee },
+    { name: "Fresh Lime Soda", description: "Sparkling soda with fresh lime and a hint of salt.", price: "₹80", image: soda },
+    { name: "Jaljeera", description: "Spiced cumin drink with tangy and refreshing flavors.", price: "₹60", image: jaljeera },
+    { name: "Badam Milk", description: "Chilled almond milk with saffron and cardamom.", price: "₹150", image:badam },
+    { name: "kit kat shake", description: "Fresh and natural coconut water served chilled.", price: "₹50", image: shake },
+    { name: "Rose Sharbat", description: "Sweet rose-flavored drink, served cold.", price: "₹100", image: gulab },
   ],
   Thali: [
-    { name: "Vegetarian Thali", description: "A wholesome platter with dal, sabzi, roti, rice, raita, and dessert.", price: "₹300", image: "veg-thali.jpg" },
-    { name: "Non-Vegetarian Thali", description: "A hearty meal with chicken curry, dal, roti, rice, and dessert.", price: "₹400", image: "nonveg-thali.jpg" },
+    { name: "Vegetarian Thali", description: "A wholesome platter with dal, sabzi, roti, rice, raita, and dessert.", price: "₹300", image: veg },
+    { name: "Non-Vegetarian Thali", description: "A hearty meal with chicken curry, dal, roti, rice, and dessert.", price: "₹400", image: non },
     { name: "South Indian Thali", description: "A flavorful platter with sambar, rasam, rice, papad, and chutneys.", price: "₹350", image: souththali },
-    { name: "Bengali Thali", description: "A royal platter with dal baati, churma, gatte ki sabzi, and more.", price: "₹450", image: "rajasthani-thali.jpg" },
-    { name: "56 Bhog Thali", description: "A royal platter with dal baati, churma, gatte ki sabzi, and more.", price: "₹450", image: "rajasthani-thali.jpg" },
+    { name: "Bengali Thali", description: "A royal platter with dal baati, churma, gatte ki sabzi, and more.", price: "₹450", image: bengali},
+    { name: "56 Bhog Thali", description: "A royal platter with dal baati, churma, gatte ki sabzi, and more.", price: "₹450", image: indian56 },
   ],
   Other: [
-    { name: "Pani Puri", description: "Crispy puris filled with spiced water and tangy tamarind chutney.", price: "₹50", image: "pani-puri.jpg" },
-    { name: "Dahi Bhalla", description: "Soft lentil dumplings topped with yogurt, chutneys, and spices.", price: "₹80", image: "dahi-bhalla.jpg" },
-    { name: "Naan", description: "Spiced vegetable mash served with buttery pav buns.", price: "₹120", image: "pav-bhaji.jpg" },
-    { name: "Chaat Platter", description: "A mix of popular street foods like samosa chaat and aloo tikki chaat.", price: "₹150", image: "chaat-platter.jpg" },
-    { name: "Gulab Jamun", description: "Comforting red kidney bean curry served with steamed rice.", price: "₹200", image: "rajma-chawal.jpg" },
-    { name: "Jeera Chawal", description: "Gram flour and yogurt-based curry served with steamed rice.", price: "₹180", image: "kadhi-chawal.jpg" },
+    { name: "Pani Puri", description: "Crispy puris filled with spiced water and tangy tamarind chutney.", price: "₹50", image: purip },
+    { name: "Dahi Bhalla", description: "Soft lentil dumplings topped with yogurt, chutneys, and spices.", price: "₹80", image: dahi },
+    { name: "Naan", description: "Spiced vegetable mash served with buttery pav buns.", price: "₹120", image:garlic  },
+    { name: "Chaat Platter", description: "A mix of popular street foods like samosa chaat and aloo tikki chaat.", price: "₹150", image: chaat },
+    { name: "Gulab Jamun", description: "Comforting red kidney bean curry served with steamed rice.", price: "₹200", image: jamun },
+    { name: "Jeera Chawal", description: "Gram flour and yogurt-based curry served with steamed rice.", price: "₹180", image: jeera },
   ],
 };
 

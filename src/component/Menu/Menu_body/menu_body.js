@@ -1,5 +1,4 @@
-
-import React, { useState } from "react";
+import React, { useState} from "react";
 import "./menu_body.css";
 import alooph from './alooph.jpg';
 import dosa from './dosa.jpg';
@@ -110,21 +109,19 @@ const menuData = {
 const MenuBody = () => {
   const [activeCategory, setActiveCategory] = useState("Breakfast");
   const [currentPage, setCurrentPage] = useState(0);
-  const itemsPerPage = 6;
-
+  const itemsPerPage = 4;
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [selectedDish, setSelectedDish] = useState(null);
 
   const dishes = menuData[activeCategory];
   const totalPages = Math.ceil(dishes.length / itemsPerPage);
 
-  const handleNext = () => {
-    setCurrentPage((prevPage) => (prevPage + 1) % totalPages);
-  };
+
+  
 
   const handleCategoryChange = (category) => {
     setActiveCategory(category);
-    setCurrentPage(0); // Reset to the first page on category change
+    setCurrentPage(0); // Reset to the first page when category changes
   };
 
   const displayedDishes = dishes.slice(
@@ -168,13 +165,13 @@ const MenuBody = () => {
             <div className="menu-details">
               <h3 style={{ color: "orange" }}>{dish.name}</h3>
               <p>{dish.description}</p>
-              <p className="price">{dish.price} </p>
+              <p className="price">{dish.price}</p>
             </div>
           </div>
         ))}
       </div>
       <div className="pagination">
-        <button className="next-button" onClick={handleNext}>
+        <button className="next-button" onClick={() => setCurrentPage((prevPage) => (prevPage + 1) % totalPages)}>
           Next →
         </button>
       </div>
@@ -204,5 +201,3 @@ const MenuBody = () => {
 };
 
 export default MenuBody;
-
-

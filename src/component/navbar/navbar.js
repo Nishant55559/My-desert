@@ -26,7 +26,7 @@ const Navbar = () => {
         <Link to="/menu">Our Menu</Link>
         </li>
         <li>
-          <a href="#reserve">Reserve a Table</a>
+          <Link to="/reserve_table">Reserve a Table</Link>
         </li>
         <li>
           <a href="#contact">Contact</a>

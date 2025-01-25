@@ -1,0 +1,17 @@
+.map-container {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+iframe {
+    border: none;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .map-container {
+        height: auto;
+    }
+}

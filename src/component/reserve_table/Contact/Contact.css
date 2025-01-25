@@ -1,0 +1,44 @@
+.contact-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: #111;
+    color: #f4f4f4;
+  }
+
+  .contact-section {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .contact-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #e0d7a7;
+  }
+
+  .contact-section p, .contact-section li {
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+
+  .contact-section ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .social-links li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+  }
+
+  @media (max-width: 768px) {
+    .contact-container {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+  }

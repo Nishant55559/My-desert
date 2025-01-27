@@ -7,8 +7,8 @@ function Contact (){
           {/* Contact Details */}
           <div className="contact-section">
             <h3>Contact</h3>
-            <p>732/21 Second Street, Manchester</p>
-            <p>Kingston, United Kingdom</p>
+            <p>732/21 Second Street, Kolkata</p>
+            <p>Kolkata, West Bengal</p>
           </div>
     
           {/* Follow Us */}
@@ -45,7 +45,7 @@ function Contact (){
           {/* Contact Info */}
           <div className="contact-section">
             <h3>T: +65 (0) 76-890-214</h3>
-            <h3>E: bookings@beatrice.co.uk</h3>
+            <h3>E:bookings@kadhai_kingdom.in</h3>
           </div>
         </div>
       );

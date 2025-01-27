@@ -5,12 +5,14 @@
     padding: 20px;
     background-color: #111;
     color: #f4f4f4;
+    height: 300px;
   }
 
   .contact-section {
     display: flex;
     flex-direction: column;
     text-align: left;
+    gap: 25px;
   }
 
   .contact-section h3 {

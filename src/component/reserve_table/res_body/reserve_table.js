@@ -5,6 +5,7 @@ import Contact from '../Contact/Contact';
 import Locate from "../map/map";
 import Gallery from "../../home/Gallery/Gallery";
 import Footer from "../../footer/footer";
+import Feedback from "../feedback/feedback";
 
 function Reserve_table(){
     return(
@@ -14,6 +15,7 @@ function Reserve_table(){
             <ReserveForm/>
             <Contact/>
             <Locate/>
+            <Feedback/>
             <Gallery/>
             <Footer/>
         </div>

@@ -5,8 +5,8 @@ function OurMenu(){
 
     const starters = [
         { name: "Paneer Tikka", description: "Paneer / Yogurt / Spices", price: "Rs 180.0" },
-        { name: "Samosa", description: "Potatoes / Peas / Spices", price: "Rs 180.0" },
-        { name: "Aloo Tikki", description: "Potatoes / Chickpeas / Spices", price: "Rs 180.0" },
+        { name: "Samosa combo", description: "Potatoes / Peas / Spices", price: "Rs 180.0" },
+        { name: "Aloo Paratha with pickel", description: "Potatoes / Chickpeas / Spices", price: "Rs 180.0" },
         { name: "Prawn Koliwada", description: "Prawns / Spices / Oil", price: "Rs 180.0" },
     ];
     
@@ -15,13 +15,13 @@ function OurMenu(){
         { name: "Butter Chicken", description: "Chicken / Butter / Cream", price: "Rs 180.0" },
         { name: "Lamb Rogan Josh", description: "Lamb / Yogurt / Spices", price: "Rs 180.0" },
         { name: "Chole Bhature", description: "Chickpeas / Bread / Spices", price: "Rs 180.0" },
-        { name: "Biryani", description: "Rice / Chicken / Spices", price: "Rs 180.0" },
+        { name: "Hyderabadi Biryani", description: "Rice / Chicken / Spices", price: "Rs 180.0" },
     ];
     
 
     const drinks = [
         { name: "Masala Chai", description: "Tea / Spices / Milk", price: "Rs 180.0" },
-        { name: "Lassi", description: "Yogurt / Sugar / Cardamom", price: "Rs 180.0" },
+        { name: "Mango Lassi", description: "Yogurt / Sugar / Cardamom", price: "Rs 180.0" },
         { name: "Sweet Lime Soda", description: "Lime / Soda / Salt", price: "Rs 180.0" },
         { name: "Jaljeera", description: "Cumin / Mint / Lemon", price: "Rs 180.0" },
     ];

@@ -6,7 +6,7 @@ const Feedback = () => {
     <div className="feedback-container">
       <div className="feedback-card">
         
-        <h1 className="feedback-title">Send Your Feedback </h1>
+        <h1 className="feedback-title">Get In Touch </h1>
         <form className="feedback-form">
           <div className="form-group">
             <label htmlFor="name">Name</label>

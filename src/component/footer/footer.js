@@ -32,10 +32,7 @@ function Footer() {
           </div>
           <h3>Newsletter</h3>
           <div className="newsletter">
-            <input type="email" placeholder="Enter Email" />
-            <button className="subscribe">
-              <MdEmail />
-            </button>
+            
           </div>
         </div>
       </div>

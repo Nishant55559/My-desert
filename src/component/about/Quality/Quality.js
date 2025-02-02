@@ -16,7 +16,7 @@ const Quality = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 3000); // Changes image every 3 seconds
+    }, 3000); // Image changes every 3 seconds
 
     return () => clearInterval(interval);
   }, []);
@@ -34,7 +34,11 @@ const Quality = () => {
       </div>
 
       <div className="quality-carousel">
-        <img src={images[currentIndex].src} alt={images[currentIndex].alt} className="quality-image" />
+        <img 
+          src={images[currentIndex].src} 
+          alt={images[currentIndex].alt} 
+          className="quality-image show" 
+        />
         <div className="carousel-indicators">
           {images.map((_, index) => (
             <span

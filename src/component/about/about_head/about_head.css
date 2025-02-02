@@ -1,0 +1,36 @@
+.about-container {
+    position: relative;
+    width: 100%;
+    height: 250px; 
+    background: url(about.jpeg) center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .about-title {
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+  }
+  
+  /* Responsive Styling */
+  @media (min-width: 768px) {
+    .about-title {
+      font-size: 3rem;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .about-container {
+      height: 350px;
+    }
+    .about-title {
+      font-size: 4rem;
+    }
+  }
+  

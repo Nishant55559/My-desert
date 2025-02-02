@@ -29,7 +29,7 @@ const Navbar = () => {
           <Link to="/reserve_table">Reserve a Table</Link>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+        <Link to="/Contact">Contact</Link>
         </li>
       </ul>
     </nav>

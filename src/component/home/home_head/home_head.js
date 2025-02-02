@@ -1,4 +1,4 @@
-
+import { Link } from 'react-router-dom';
 import "./home_head.css";
 import homehead from './homehead.jpg'
 
@@ -13,7 +13,8 @@ function HomeHead(){
         Sizzling flavors you'll appreciate.
         Taste the love in every bite we create.  
         </p>
-        <button className="btn"><span>OUR MENUS</span></button>
+        <Link to="/menu"> <button className="btn"><span>OUR MENUS</span></button></Link>
+       
 
       </div>
     </div>

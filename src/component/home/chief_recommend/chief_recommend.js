@@ -1,5 +1,6 @@
 import thali from './thali.jpg'
 import "./chief_recommend.css";
+import { Link } from 'react-router-dom';
 
 function ChiefRecommend(){
 
@@ -14,7 +15,8 @@ function ChiefRecommend(){
           ingredients for an unforgettable flavor experience. Indulge in a dish
           guaranteed to delight!
         </p>
-        <button className="view-menu-button">VIEW MENUS</button>
+        <Link to="/menu"><button className="view-menu-button">VIEW MENUS</button></Link>
+        
       </div>
       <div className="image-section">
         <img

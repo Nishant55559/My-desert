@@ -1,5 +1,6 @@
 import resfoot from './resfoot.jpg'
 import './ReserveFoot.css';
+import { Link } from 'react-router-dom';
 
 
 function ReserveFoot() {
@@ -14,9 +15,8 @@ function ReserveFoot() {
         When the flavors get bold, 
         we bring the fire to your feast. Serving up sizzling dishes no one can beat.
         </p>
-        <button className="reserve-button" >
-          Reservation
-        </button>
+         <Link to="/reserve_table"> <button className="reserve-button" >Reservation</button></Link>
+       
       </div>
     </div>
   );

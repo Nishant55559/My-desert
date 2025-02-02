@@ -45,6 +45,7 @@
   .about_log_text h2 {
     font-size: 1.8rem;
     margin-bottom: 10px;
+    margin-top: 20px;
   }
   
   .about_log_button {
@@ -53,8 +54,8 @@
     margin-top: 30px;
     background-color: transparent;
     border-radius: 10px; 
-    border-width: 3px;
     color: #ffffff;
+    border-width: 3px;
     cursor: pointer;
     text-transform: uppercase;
     letter-spacing: 1.5px;
@@ -62,12 +63,13 @@
     background-color: #fb970100;
     border-left-color:#fb970100 ;
     border-right-color:#fb970100 ;
-    border-top-color:#ffae34 ;
-    border-bottom-color:#ff9900 ;
+    border-top-color:#fb9701 ;
+    border-bottom-color:#fb9701 ;
+    
   }
   
   .about_log_button:hover {
-    background-color: #ffae34ce ;
+    background-color: #d97706;
   }
   
   /* Responsive Design */

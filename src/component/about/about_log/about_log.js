@@ -1,6 +1,7 @@
 import about3 from './about3.jpg'
 import about4 from './about4.jpg'
 import "./about_log.css";
+import { Link } from 'react-router-dom';
 
 function AboutLog (){
   return (
@@ -11,7 +12,7 @@ function AboutLog (){
         </div>
         <div className="about_log_text">
           <h2>Book a Table</h2>
-          <button className="about_log_button">RESERVE</button>
+          <Link to="/menu"> <button className="about_log_button">RESERVE</button></Link>
         </div>
       </div>
 
@@ -21,7 +22,8 @@ function AboutLog (){
         </div>
         <div className="about_log_text">
           <h2>Our Cocktails</h2>
-          <button className="about_log_button">OUR MENU</button>
+          <Link to="/menu"><button className="about_log_button">OUR MENU</button></Link>
+          
         </div>
       </div>
     </div>

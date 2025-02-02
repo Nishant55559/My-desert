@@ -48,17 +48,26 @@
   }
   
   .about_log_button {
-    background-color: #d97706;
-    color: white;
-    border: none;
-    padding: 10px 20px;
     font-size: 1rem;
+    padding: 0.8rem 2rem;
+    margin-top: 30px;
+    background-color: transparent;
+    border-radius: 10px; 
+    border-width: 3px;
+    color: #ffffff;
     cursor: pointer;
-    transition: background 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    transition: all 0.3s ease;
+    background-color: #fb970100;
+    border-left-color:#fb970100 ;
+    border-right-color:#fb970100 ;
+    border-top-color:#ffae34 ;
+    border-bottom-color:#ff9900 ;
   }
   
   .about_log_button:hover {
-    background-color: #b45309;
+    background-color: #ffae34ce ;
   }
   
   /* Responsive Design */

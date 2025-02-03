@@ -8,6 +8,8 @@ import ReserveFoot from "./ReserveFoot/ReserveFoot";
 import Gallery from "./Gallery/Gallery";
 import Footer from "../footer/footer";
 
+
+
 function Home(){
     return(
         <div>
@@ -17,6 +19,7 @@ function Home(){
             <AdultChill/>
             <ChiefRecommend/>
             <OurMenu/>
+          
             <ReserveFoot/>
             <Gallery/>
             <Footer/>

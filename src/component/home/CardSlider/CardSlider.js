@@ -3,52 +3,57 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./CardSlider.css";
+import bhuna from './bhuna.jpg'
+import aloopak from './aloopak.jpg'
+import indramen from './indramen.jpg'
+import prawn from './prawn.jpg'
+import jmomo from './jmomo.jpg'
 
 const AfroStyles = [
     {
         id: 1,
         title: "Model 1",
-        description: "Wearing a crisp white shirt paired with perfectly fitted denim jeans and classic canvas",
+        description: "aloo ke pakore",
         alt: "First Image",
-        src: "https://images.unsplash.com/photo-1528991435120-e73e05a58897?auto=format&fit=crop&q=80&w=2787&ixlib=rb-4.0.3",
-        name: "John Doe",
-        price: "$50"
+        src: aloopak,
+        name: "Aloo Ke Pakore with laal chutney and Tea",
+        price: "Rs 50"
     },
     {
         id: 2,
         title: "Model 2",
-        description: "Elevate your style with this Ankara long sleeve shirt and trouser",
+        description: "maggi ramen",
         alt: "Second Image",
-        src: "https://images.unsplash.com/photo-1572495532056-8583af1cbae0?auto=format&fit=crop&q=80&w=2787&ixlib=rb-4.0.3",
-        name: "John Doe",
-        price: "$50"
+        src: indramen,
+        name: "Indian Ramen made with maggi and indian spicies",
+        price: "Rs50"
     },
     {
         id: 3,
         title: "Model 3",
-        description: "Elevate your style with Ankara dresses.",
+        description: "chicken masala .",
         alt: "Third Image",
-        src: "https://images.unsplash.com/photo-1607823489283-1deb240f9e27?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3",
-        name: "John Doe",
-        price: "$50"
+        src: bhuna,
+        name: "Chicken Bhuna Masala ",
+        price: "Rs 250"
     },
     {
         id: 4,
         title: "Model 4",
-        description: "An elegant monochromatic image of a female figure.",
+        description: "prawn curry.",
         alt: "Fourth Image",
-        src: "https://images.unsplash.com/flagged/photo-1578907015404-bd0176fb3108?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3",
-        name: "John Doe",
-        price: "$50"
+        src: prawn,
+        name: "Prawn Curry",
+        price: "Rs 250"
     },
     {
         id: 5,
         title: "Model 5",
-        description: "Stylish trendy afro France man in red hat & white outfit",
+        description: "jhol momo",
         alt: "Fifth Image",
-        src: "https://images.unsplash.com/photo-1584530193960-b4eb6c87081c?auto=format&fit=crop&q=80&w=2824&ixlib=rb-4.0.3",
-        name: "John Doe",
-        price: "$50"
+        src: jmomo,
+        name: "Spicy Jhol Momo",
+        price: "  Rs 70"
     }
 ];
 

@@ -1,0 +1,127 @@
+.card_slider-body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    width: 90%;
+    color: rgb(52, 48, 48);
+}
+
+.card_slider-content {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card_slider-header {
+    font-size: 30px;
+}
+
+.card_slider-img-body img {
+    display: flex;
+    margin: 0 auto;
+    height: 40vh;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.card_slider-img-body {
+    position: relative;
+    width: 400px;
+    aspect-ratio: 1/1;
+    display: inline-block;
+}
+
+.card_slider-text {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+.card_slider-name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.card_slider-price {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+
+
+.card_slider-img-body {
+    width: 400px;
+    aspect-ratio: 1/1;
+    display: inline-block;
+}
+
+.card_slider-container {
+    margin: 0 auto;
+    width: 100%;
+    height: 80vh;
+}
+
+.next-arrow, .prev-arrow {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    border-radius: 50%; /* Makes it circular */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.next-arrow {
+    right: 10px;
+}
+
+.prev-arrow {
+    left: 10px;
+}
+
+.next-arrow svg, .prev-arrow svg {
+    fill: rgb(8, 8, 8); /* Ensures the arrows are visible */
+    width: 24px;
+    height: 24px;
+}
+
+.card_slider-thumb-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.card_slider-thumb-wrapper div {
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border 0.3s ease-in-out;
+}
+
+.card_slider-thumb-wrapper div img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+.card_slider-active {
+    border: 2px solid red;
+}
+
+@media (max-width: 768px) {
+    .card_slider-img-body {
+        width: 100%;
+    }
+}

@@ -7,7 +7,7 @@ import OurMenu from "./our_menu/our_menu";
 import ReserveFoot from "./ReserveFoot/ReserveFoot";
 import Gallery from "./Gallery/Gallery";
 import Footer from "../footer/footer";
-
+import CardSlider from "./CardSlider/CardSlider";
 
 
 function Home(){
@@ -19,7 +19,7 @@ function Home(){
             <AdultChill/>
             <ChiefRecommend/>
             <OurMenu/>
-          
+            <CardSlider/>
             <ReserveFoot/>
             <Gallery/>
             <Footer/>

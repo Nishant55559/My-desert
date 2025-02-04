@@ -12,7 +12,7 @@ function AboutLog (){
         </div>
         <div className="about_log_text">
           <h2>Book a Table</h2>
-          <Link to="/menu"> <button className="about_log_button">RESERVE</button></Link>
+          <Link to="/reserve_table"> <button className="about_log_button">RESERVE</button></Link>
         </div>
       </div>
 
@@ -21,7 +21,7 @@ function AboutLog (){
           <img src={about4} alt="Our Cocktails" className="zoom_effect" />
         </div>
         <div className="about_log_text">
-          <h2>Our Cocktails</h2>
+          <h2>Our Starters and Refreshments</h2>
           <Link to="/menu"><button className="about_log_button">OUR MENU</button></Link>
           
         </div>

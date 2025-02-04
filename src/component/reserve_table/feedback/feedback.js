@@ -18,7 +18,7 @@ const Feedback = () => {
           </div>
           <div className="form-group">
             <label htmlFor="phone">Phone</label>
-            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" />
+            <input type="text" pattern="[0-9]*" id="phone" name="phone" placeholder="Enter your phone number" />
           </div>
           <div className="form-group">
             <label htmlFor="message">Message</label>
